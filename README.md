@@ -1,2 +1,2 @@
-# Cap-gen
+# Caption-Generator-ig
 CSE POST's CAPTION GENERATORRRRRRR LOL
