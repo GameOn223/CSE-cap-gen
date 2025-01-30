@@ -38,7 +38,7 @@ uploaded_image = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "pn
 
 if uploaded_image is not None:
     image = Image.open(uploaded_image)
-    st.image(image, caption="Uploaded Image", use_column_width=True)
+    st.image(image, caption="Uploaded Image", use_container_width=True)
 
     with st.spinner(f"{random.choice(loading_words)}..."):
         extracted_text = extract_text_from_image(image)
